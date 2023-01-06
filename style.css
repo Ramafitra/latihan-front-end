@@ -1,0 +1,136 @@
+body{
+    padding: 0 120px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.navbar .nm {
+    color: blue;
+}
+
+.navbar h1 {
+    font-size: 25px;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.navbar .active {
+    font-weight: bold;
+}
+
+.navbar .Instagram {
+    background-color: red;
+    color: #ffff;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.navbar .Whatsapp {
+    background-color: green;
+    color: #ffff;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.hero {
+    display: flex;
+    margin-top: 40px;
+}
+
+.hero .nama h1{
+    width: 500px;
+    font-size: 56px;
+}
+
+.hero .gambar {
+    width: 100%;
+}
+
+.hero .nama .btn {
+    background-color: red;
+    color: #ffff;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.hero1 {
+    margin-top: 40px;
+}
+
+.hero1 .lorem{
+    text-align: left;
+}
+
+.hero1 .judul h1, .hero1 .judul p{
+    text-align: center;
+}
+
+.hero2 {
+    margin-top: 60px;
+    display: flex;
+}
+
+.hero2 .product p {
+    font-size: 17px;
+}
+
+.hero2 .product {
+    background-color: #ffff;
+    width: 450px;
+    margin-right: 60px;
+    border-top: 4px solid rgb(71, 195, 253);
+    padding: 25px;
+}
+
+.hero2 .product3 p {
+    font-size: 17px;
+}
+
+.hero2 .product3 {
+    background-color: #ffff;
+    width: 450px;
+    margin-right: 60px;
+    border-top: 4px solid rgb(71, 195, 253);
+    padding: 25px;
+}
+
+.hero2 .product2 p {
+    font-size: 17px;
+}
+
+.hero2 .product2 {
+    background-color: #ffff;
+    width: 450px;
+    margin-right: 60px;
+    border-top: 4px solid rgb(71, 195, 253);
+    padding: 25px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 20px;
+    color: #ffff;
+    background-color: rgb(71, 195, 253);
+    border-radius: 20px;
+}
+
